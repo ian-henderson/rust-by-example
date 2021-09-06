@@ -97,7 +97,7 @@ fn main() {
 
     // Error! `rectangle` is immutable, but this method requires a mutable
     // object
-    //rectangle.translate(1.0, 0.0);
+    // rectangle.translate(1.0, 0.0);
     // TODO ^ Try uncommenting this line
 
     // Okay! Mutable objects can call mutable methods
@@ -108,6 +108,6 @@ fn main() {
     pair.destroy();
 
     // Error! Previous `destroy` call "consumed" `pair`
-    //pair.destroy();
+    // pair.destroy();
     // TODO ^ Try uncommenting this line
 }
